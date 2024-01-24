@@ -1,0 +1,100 @@
+
+/* CSS code for simple web page */
+
+/* Set the font family and size for the whole document */
+* {
+  font-family: Arial, sans-serif;
+  font-size: 16px;
+}
+
+/* Set the background color and margin for the body */
+body {
+  background-color: #f0f0f0;
+  margin: 0;
+}
+
+/* Style the navigation bar */
+nav {
+  background-color: #333;
+  overflow: hidden;
+}
+
+/* Style the links in the navigation bar */
+nav a {
+  color: white;
+  text-decoration:none;
+  padding: 14px 16px;
+  display: block;
+  float: left;
+}
+
+/* Change the color of the links on hover */
+nav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+/* Style the heading */
+h1 {
+  color: #4CAF50;
+  text-align: center;
+  margin-top: 20px;
+}
+
+/* Style the image */
+img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+  border-radius: 10px;
+
+}
+
+/* Style the paragraph */
+p {
+  color: #141313;
+  text-align: justify;
+  margin: 20px;
+}
+
+/* Style the label */
+label {
+  color: #333;
+  display: inline-block;
+  width: 100px;
+  margin-left: 20px;
+}
+
+/* Style the input field */
+input[type=text] {
+  width: 200px;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+/* Style the submit button */
+input[type=submit] {
+  width: 100px;
+  padding: 10px;
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  margin-left: 20px;
+  cursor: pointer;
+}
+
+/* Change the background color of the submit button on hover */
+input[type=submit]:hover {
+  background-color: #3a9f40;
+}
+
+/* Style the footer */
+footer {
+  background-color: #333;
+  color: white;
+  text-align: center;
+  padding: 10px;
+}
